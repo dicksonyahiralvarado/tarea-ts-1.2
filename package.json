@@ -1,0 +1,14 @@
+{
+  "name": "tarea-ts-1.2",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node --no-warnings --loader ts-node/esm src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
